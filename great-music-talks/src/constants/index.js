@@ -1,4 +1,4 @@
-import {angel, animate, apple, arrow, back, dim, ep1, ep2, ep3, feat1, feat2, feat3,feat4, headphone, logo, mail, microphone, play, pulse, soundcloud, spotify, test, woman,chat,admin} from '../assets'
+import {angel, animate, apple, arrow, back, dim, ep1, ep2, ep3, feat1, feat2, feat3,feat4,feat5,feat6, headphone, logo, mail, microphone, play, pulse, soundcloud, spotify, woman,chat,admin} from '../assets'
 
 export const navLinks =[
     {
@@ -42,7 +42,7 @@ export const episode = [
         icon: headphone,
         title:'Whats New?',
         head:'How to stay relevant as a Nigerian artist',
-        content : 'Just like fashion, entreprenureship and technology, the quality of music that appeals to the general public of this age, has and will come to evolve overtime',
+        content : 'Just like fashion, entreprenureship and technology, the quality of music that appeals to the general public of this age.',
     }
 ]
 
@@ -74,13 +74,13 @@ export const featured =[
     },
     {
         id: 'podcast',
-        img: feat1,
+        img: feat5,
         head: 'Bringing podcast to life',
         text: 'VIEW ALL'
     },
     {
         id: 'podcast',
-        img: feat2,
+        img: feat6,
         head: 'have you picked the right camera?',
         text: 'VIEW ALL'
     }

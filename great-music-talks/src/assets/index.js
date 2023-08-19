@@ -19,12 +19,13 @@ import play from './play.png';
 import pulse from './pulse.png';
 import soundcloud from './soundcloud.svg';
 import spotify from './spotify.svg';
-import test from './test.jpg';
-import woman from './woman.avif';
+import woman from './woman.jpg';
 import close from './close.svg';
 import menu from './menu.svg';
 import chat from './chat.png';
 import admin from './admin.png';
+import feat5 from './feat5.jpg';
+import feat6 from './feat6.jpg';
 
 
 
@@ -42,6 +43,8 @@ export {
     feat2,
     feat3,
     feat4,
+    feat5,
+    feat6,
     headphone,
     logo,
     mail,
@@ -50,7 +53,6 @@ export {
     pulse,
     soundcloud,
     spotify,
-    test,
     woman,
     close,
     menu,
