@@ -41,7 +41,7 @@ export const episode = [
         img: ep3,
         icon: headphone,
         title:'Whats New?',
-        head:'How to stay relevant as a Nigerian artist',
+        head:'How to stay relevant',
         content : 'Just like fashion, entreprenureship and technology, the quality of music that appeals to the general public of this age.',
     }
 ]

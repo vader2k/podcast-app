@@ -6,15 +6,15 @@ const Explore = () => {
     <div className='flex justify-center items-center sm:flex-row flex-col gap-8'>
       <div className='flex flex-col justify-start sm:px-10 my-6'>
         <h3 className='text-orange-600 font-semibold text-[1rem] '>Enjoy New Shows</h3>
-        <p className='font-semibold sm:text-[2.5rem] text-[2rem] py-4'>Check out the latest podcast playlist</p>
-        <p className='max-w-[450px] text-gray-500 py-5'>
+        <p className='font-semibold sm:text-[2.5rem] text-[1.5rem] py-4'>Check out the latest podcast playlist</p>
+        <p className='max-w-[450px] text-gray-500 py-5 sm:text-[1rem] text-[0.9rem]'>
           Nam ultrices odio a felis lobortis convallis. In ex nunc, ornare non condimentum et, egestas vel massa. Nullam hendrerit felis quis pellentesque porttitor.
         </p>
-        <p className='max-w-[450px] text-gray-400 py-5'>
+        <p className='max-w-[450px] text-gray-400 py-5 sm:text-[1rem] text-[0.9rem]'>
           Aenean lobortis bibendum turpis et auctor. Nam iaculis, lectus vulputate cursus interdum, lacus odio commodo ipsum, nec condimentum purus tellus eu metus. Vivamus volutpat vitae dolor non suscipit.
         </p>
 
-        <button type='button' className='bg-orange-600 text-white text-[1rem] py-3 px-5 my-3 rounded-[50px] w-[200px] '>VIEW ALL EPISODES</button>
+        <button type='button' className='bg-orange-600 text-white sm:text-[1rem] text-[0.8rem] py-3 px-5 my-3 rounded-[50px] w-[200px] '>VIEW ALL EPISODES</button>
       </div>
 
       <div className='flex flex-col sm:px-5 explore'>

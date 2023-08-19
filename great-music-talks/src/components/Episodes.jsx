@@ -9,7 +9,7 @@ const Episodes = () => {
     <div >
         <div className='flex flex-col justify-center'>
           <h3 className='py-5 text-orange-600'>Enjoy New shows</h3>
-          <h2 className={`${styles.heading2} text-black`}>
+          <h2 className={`sm:text-[1rem] text-[30px] ${styles.heading2}`}>
             Latest Episodes
           </h2>
         </div>
