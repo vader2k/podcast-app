@@ -1,7 +1,7 @@
 import React from 'react'
 import { featured } from '../constants'
 import PodcastCard from './PodcastCard'
-import { lines } from '../assets'
+
 
 const Podcast = () => {
   return (

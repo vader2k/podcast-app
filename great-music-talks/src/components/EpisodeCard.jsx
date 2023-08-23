@@ -4,7 +4,7 @@ const EpisodeCard = ({title, head, icon, img, content, indicator , view }) => {
     <div className='sm:min-w-[400px] min-w-[350px] md:h-[600px] h-[550px] ep-box'>
         <img src={img} alt='podcast' className='md:w-[500px] md:h-[320px] w-[100%] h-[50%] ' />
         <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
-            <img src={icon} alt='microphone' className='w-[30px]'/>
+            <img src={icon} alt='microphone' className='w-[30px] rounded-[20px]'/>
             <p className='font-semibold text-orange-600'>
                 {title}
             </p>

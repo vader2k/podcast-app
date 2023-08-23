@@ -27,7 +27,7 @@ import admin from './admin.png';
 import feat5 from './feat5.jpg';
 import feat6 from './feat6.jpg';
 import lines from './lines.jpg';
-
+import hmm from './hmm.jpg';
 
 
 export {
@@ -60,4 +60,5 @@ export {
     chat,
     admin,
     lines,
+    hmm
 };
