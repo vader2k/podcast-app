@@ -26,6 +26,7 @@ import chat from './chat.png';
 import admin from './admin.png';
 import feat5 from './feat5.jpg';
 import feat6 from './feat6.jpg';
+import lines from './lines.jpg';
 
 
 
@@ -57,5 +58,6 @@ export {
     close,
     menu,
     chat,
-    admin
+    admin,
+    lines,
 };

@@ -69,3 +69,6 @@ nav a:hover {
   border: 1px solid lightgray;
   box-shadow: 5px 5px 5px 1px lightgray;
 }
+.poddy{
+  background-image: url(./assets/lines.jpg);
+}

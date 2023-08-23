@@ -1,4 +1,4 @@
-import {angel, animate, apple, arrow, back, dim, ep1, ep2, ep3, feat1, feat2, feat3,feat4,feat5,feat6, headphone, logo, mail, microphone, play, pulse, soundcloud, spotify, woman,chat,admin} from '../assets'
+import {angel, animate, apple, arrow, back, dim, ep1, ep2, ep3, feat1, feat2, feat3,feat4,feat5,feat6, headphone, logo, mail, microphone, play, pulse, soundcloud, spotify, woman,chat,admin, lines} from '../assets'
 
 export const navLinks =[
     {
@@ -24,25 +24,31 @@ export const episode = [
         id: 'episode-1',
         img: ep1,
         icon: headphone,
-        title:'Whats New?',
+        title:'Whats New',
+        indicator: 'Episode1',
         head:'The Zazuu Episode',
-        content:'Did you know that Africa is the most expensive continent in the world to send and receive money?'
+        content:'Did you know that Africa is the most expensive continent in the world to send and receive money?',
+        view: 'VIEW EPISODE '
     },
     {
         id: 'episode-2',
         img: ep2,
         icon: headphone,
-        title:'Whats New?',
+        title:'Fashion Life?',
+        indicator: 'Episode2',
         head:'Depressed?',
-        content: 'Even the Good things can be depressin too. Be obsrvant, do not sweep You under the carpet. Love and light.'
+        content: 'Even the Good things can be depressin too. Be obsrvant, do not sweep You under the carpet. Love and light.',
+        view: 'VIEW EPISODE '
     },
     {
         id: 'episode-3',
         img: ep3,
         icon: headphone,
-        title:'Whats New?',
+        indicator: 'Episode3',
+        title:'Real Music',
         head:'How to stay relevant',
         content : 'Just like fashion, entreprenureship and technology, the quality of music that appeals to the general public of this age.',
+        view: 'VIEW EPISODE '
     }
 ]
 
