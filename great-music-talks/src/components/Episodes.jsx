@@ -59,7 +59,7 @@ const Episodes = () => {
             <h2 className={`font-bold sm:text-[1.2rem] text-[1rem] sm:px-5 px-5`}>
               The Zazu Episode
             </h2>
-            <p className='pt-5 sm:px-5 px-5 text-[0.8rem]'>
+            <p className='pt-5 sm:px-5 px-5 text-[0.8rem] max-w-[350px]'>
               Did you know that Africa is the most expensive continent in the world to send and receive money?
             </p>
             <p className='pt-5  sm:px-5 px-5 text-[0.8rem] text-orange-600'>
@@ -81,7 +81,7 @@ const Episodes = () => {
             <h2 className={`font-bold sm:text-[1.2rem] text-[1rem] sm:px-5 px-5`}>
               Depressed?
             </h2>
-            <p className='pt-5 sm:px-5 px-5 text-[0.8rem]'>
+            <p className='pt-5 sm:px-5 px-5 text-[0.8rem] max-w-[350px]'>
               Even the Good things can be depressin too. Be obsrvant, do not sweep You under the carpet. Love and light.
             </p>
             <p className='pt-5  sm:px-5 px-5 text-[0.8rem] text-orange-600'>
@@ -104,7 +104,7 @@ const Episodes = () => {
             <h2 className={`font-bold sm:text-[1.2rem] text-[1rem] sm:px-5 px-5`}>
               How to stay relevant
             </h2>
-            <p className='pt-5 sm:px-5 px-5 text-[0.8rem]'>
+            <p className='pt-5 sm:px-5 px-5 text-[0.8rem] max-w-[350px]'>
               Just like fashion, entreprenureship and technology, the quality of music that appeals to the general public of this age.
             </p>
             <p className='pt-5  sm:px-5 px-5 text-[0.8rem] text-orange-600'>
