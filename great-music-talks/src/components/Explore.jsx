@@ -20,7 +20,7 @@ const Explore = () => {
       <div className='flex flex-col sm:px-5 explore'>
         <div className='item'>
           {explore.map((explore)=>(
-            <div key={explore.id} className='my-10'>
+            <div key={explore.id} className='my-10 border-b border-gray-400 pb-4'>
               <div>
               <img src={explore.img} className='cursor-pointer'/>
               </div>
