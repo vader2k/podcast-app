@@ -5,7 +5,7 @@ const Support = () => {
   return (
     <div className={`${styles.padding} w-full flex flex-wrap gap-3 flex-1  justify-center items-center  support`}>
       <div className={`flex flex-col gap-5`}>
-      <img src={microphone} alt='microphone' className='w-[100px] h-[100px] sm:hidden block'/>
+      <img src={microphone} alt='microphone' className='w-[80px] h-[80px] rounded-[50px] sm:hidden block'/>
         <p className='text-orange-600 font-semibold text-[1rem]'>Enjoy Our New Shows</p>
         <p className='sm:text-[2.5rem] text-[1.3rem] text-white'>Support and listen to our latest apple podcast</p>
         <button type='button' className='bg-orange-600 text-white text-[0.8rem] outline-none px-4 py-4 rounded-[50px] hover:text-orange-600 hover:bg-dimWhite w-[200px]'>START DONATING</button>
