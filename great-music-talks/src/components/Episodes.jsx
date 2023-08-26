@@ -38,7 +38,7 @@ const Episodes = () => {
           </h2>
         </div>
 
-        <div className={`my-10 wraper max-h-[600px] border-x-gray-100 border-y-gray-100  overflow-x-auto flex gap-8 mx-5' `}>
+        <div className={`my-10 wraper wraper-top max-h-[600px] border-x-gray-100 border-y-gray-100  overflow-x-auto flex gap-8 mx-5' `}>
           {episode.map((episode)=>(
             <EpisodeCard key={episode.id} {...episode}/>
           ))}

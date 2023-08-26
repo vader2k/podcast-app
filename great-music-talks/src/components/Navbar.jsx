@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className='w-full flex py-3 items-center navbar '>
       <div className='flex justify-start items-center gap-2'>
-        <img src={microphone} alt='microphone' className='w-[80px] h-[80px]'/>
+        <img src={microphone} alt='microphone' className='w-[40px] h-[40px] rounded-full'/>
         <p className='font-poppins'>Great Music Great Talks</p>
       </div>
 
