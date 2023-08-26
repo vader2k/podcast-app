@@ -40,7 +40,21 @@
     background-position: center;
     object-fit: cover;
   }
+  .wraper{
+    display: none;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .caro{
+    display: none;
+  }
+}
+
+
+
+
+
 
 button{
   border: 1px solid #ff5e00;
