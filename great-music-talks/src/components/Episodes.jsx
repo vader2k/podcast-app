@@ -46,7 +46,7 @@ const Episodes = () => {
 
       <Carousel responsive={responsive} showDots={true} infinite={true} customTransition="all .5" transitionDuration={500} className='caro ep-box'>
           <div className='w-[340px] h-[550px]'>
-            <img className='w-[340px] h-[50%]' src={ep1}/>
+            <img className='w-[100%] h-[50%]' src={ep1}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
               <img src={headphone} alt='microphone' className='w-[30px] rounded-[20px]'/>
               <p className='font-semibold text-orange-600'>
@@ -68,7 +68,7 @@ const Episodes = () => {
           </div>
 
           <div className='w-[340px] h-[550px]'>
-            <img className='w-[340px] h-[50%]' src={ep2}/>
+            <img className='w-[100%] h-[50%]' src={ep2}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
               <img src={headphone} alt='microphone' className='w-[30px] rounded-[20px]'/>
               <p className='font-semibold text-orange-600'>
@@ -91,7 +91,7 @@ const Episodes = () => {
           </div>
 
           <div className='w-[340px] 4-[550px]'>
-            <img className='w-[340px] h-[275px]' src={ep3}/>
+            <img className='w-[100%] h-[275px]' src={ep3}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
               <img src={headphone} alt='microphone' className='w-[30px] rounded-[20px]'/>
               <p className='font-semibold text-orange-600'>
