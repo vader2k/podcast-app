@@ -45,7 +45,7 @@ const Episodes = () => {
         </div> 
 
       <Carousel responsive={responsive} showDots={true} infinite={true} customTransition="all .5" transitionDuration={500} className='caro ep-box'>
-          <div className='w-[340px] h-[550px]'>
+          <div className='w-[400px] h-[550px]'>
             <img className='w-[100%] h-[50%]' src={ep1}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
               <img src={headphone} alt='microphone' className='w-[30px] rounded-[20px]'/>
@@ -67,7 +67,7 @@ const Episodes = () => {
             </p>
           </div>
 
-          <div className='w-[340px] h-[550px]'>
+          <div className='w-[400px] h-[550px]'>
             <img className='w-[100%] h-[50%]' src={ep2}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
               <img src={headphone} alt='microphone' className='w-[30px] rounded-[20px]'/>
@@ -90,7 +90,7 @@ const Episodes = () => {
 
           </div>
 
-          <div className='w-[340px] 4-[550px]'>
+          <div className='w-[400px] 4-[550px]'>
             <img className='w-[100%] h-[275px]' src={ep3}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
               <img src={headphone} alt='microphone' className='w-[30px] rounded-[20px]'/>
