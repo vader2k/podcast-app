@@ -26,8 +26,6 @@ const Episodes = () => {
       items: 1
     }
   };
- 
- 
 
   return (
     <div >
@@ -44,7 +42,7 @@ const Episodes = () => {
           ))}
         </div> 
 
-      <Carousel responsive={responsive} showDots={true} infinite={true} customTransition="all .5" transitionDuration={500} className='caro ep-box'>
+      <Carousel responsive={responsive} showDots={true} infinite={true} customTransition="all .5" transitionDuration={500} autoPlay={true} arrows={false}  className='caro ep-box'>
           <div className='w-[400px] h-[550px]'>
             <img className='w-[100%] h-[50%]' src={ep1}/>
             <div className='flex gap-3 pt-10 pb-10 text-center sm:px5 px-5 items-center'>
